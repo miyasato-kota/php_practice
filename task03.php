@@ -5,18 +5,18 @@ if ($name == '宮里') {
 } else {
     echo 'あなたの名前ではありません';
 }
-echo nl2br("\n");
+echo strip_tags(nl2br("\n"));
 
 $a = 0;
 for ($i = 0; $i <= 10000; $i++) {
     $a += $i;
 }
 echo $a;
-echo nl2br("\n");
+echo strip_tags(nl2br("\n"));
 
 $fruits = array('apple', 'orange', 'banana', 'peach', 'grape');
 foreach ($fruits AS $value) {
-    echo $value. nl2br("\n");
+    echo $value. strip_tags(nl2br("\n"));
 }
 
 /* for文の始めの値を定義する */
@@ -26,7 +26,7 @@ $end = 100;
 for ($i = $start; $i <= $end; $i++) {
   // 5で割り切れたら{}内を実行する
   if($i != 0 && $i % 5 == 0){
-    echo $i. nl2br("\n");
+    echo $i. strip_tags(nl2br("\n"));
   }
 }
 ?>
