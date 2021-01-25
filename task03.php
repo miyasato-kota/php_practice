@@ -1,4 +1,5 @@
 <?php
+// 1
 $name = '宮里';
 if ($name == '宮里') {
     echo '私はあなたの名前です';
@@ -7,18 +8,21 @@ if ($name == '宮里') {
 }
 echo strip_tags(nl2br("\n"));
 
+//2
 $a = 0;
-for ($i = 0; $i <= 10000; $i++) {
+for ($i = 1; $i <= 10000; $i++) {
     $a += $i;
 }
 echo $a;
 echo strip_tags(nl2br("\n"));
 
+//3
 $fruits = array('apple', 'orange', 'banana', 'peach', 'grape');
 foreach ($fruits AS $value) {
     echo $value. strip_tags(nl2br("\n"));
 }
 
+//4
 /* for文の始めの値を定義する */
 $start = 0;
 /* for文の終わりの値を定義する */
