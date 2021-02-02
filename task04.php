@@ -33,7 +33,7 @@ function problem3($arr) {
             $arr_result *= $arr[$i];
         }
     }
-    return $arr_result.'<br>';
+    return $arr_result;
 }
 // 問4
 function max_array($arr) {
@@ -68,9 +68,11 @@ function problem5($arr, $arr1) {
     }
     
     // 4.
-    $time = time() + (7 * 24 * 60 * 60);
+    $time = time();
+    $make_time = date('Y-m-d', strtotime('+1 month', $time));
     $nuw_time = date('Y-m-d', $time);
     $get_tiem = date("M-d-Y", mktime(0, 0, 0, 1, 1, 2021));;
+    $result .= $make_time;
     $result .= $nuw_time;
     $result .= $get_tiem;
     
