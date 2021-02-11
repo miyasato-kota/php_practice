@@ -1,0 +1,32 @@
+（１）Bladeテンプレートで、埋め込みたい箇所に利用するワードは何だったでしょうか？
+⇨　継承
+
+（２）Webpackで使われているBootstrapやSCSSはどういったものか、調べられる範囲で調べてみましょう
+⇨　Bootstrap(cssのフレームワーク）
+ウェブサイトで使われているボタンやフォームなどのパーツのスタイルを提供している
+
+⇨　SCSS
+cssを効率的に記述するための言語であるsassの拡張子
+
+（３）~（8）【応用】 まとめ↓
+■webpack
+https://github.com/miyasato-kota/mynews/webpack.mix.js
+
+■Controllers
+https://github.com/miyasato-kota/mynews/tree/master/app/Http/Controllers/Admin/NewsController.php
+
+■sass
+https://github.com/miyasato-kota/mynews/tree/master/resources/sass/profile.scss
+
+■css
+https://github.com/miyasato-kota/mynews/tree/master/public/css/profile.css
+
+■routes配下
+https://github.com/miyasato-kota/mynews/blob/master/routes/web.php
+
+■admin配下
+https://github.com/miyasato-kota/mynews/tree/master/resources/views/admin/profile/create.blade.php
+
+■layouts配下
+https://github.com/miyasato-kota/mynews/tree/master/resources/views/layouts/profile.blade.php
+
